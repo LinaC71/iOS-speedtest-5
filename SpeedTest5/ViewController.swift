@@ -2,6 +2,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var reds: UIButton!
+    @IBOutlet weak var blues: UIButton!
+    @IBOutlet weak var yellows: UIButton!
+    @IBOutlet weak var greens: UIButton!
+    
     @IBAction func red() {
         view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         
